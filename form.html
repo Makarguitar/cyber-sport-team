@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form class="form">
+        <div class="form-head">
+            <a href="landing.html" class="btn-back"><</a>
+            <h3 class="form-title">BRUH</h3>
+        </div>
+        <div class="form-body">
+            <input type="text" class="f-name" placeholder="Name" name="F-name">
+            <input type="text" class="s-name" placeholder="Surename" name="s-name">
+            <div class="input-wrapper">
+                <p class="gender">Your gender</p>
+                <input type="radio" name="gender" value="male" class="male-radio" id="male-radio">
+                <label for="male-radio">M</label>
+                <input type="radio" name="gender" value="female" class="female-radio" id="female-radio">
+                <label for="female-radio">FM</label>
+            </div>
+            <div class="input-wrapper">
+                <input type="checkbox" value="year18" class="age" id="age" name="age">
+                <label for="age">I'm got 18 years old</label>
+            </div>
+            <div class="input-wrapper">
+                <label for="game">You'r discipline</label>
+                <select name="game" id="game" class="game">
+                    <option value="cs-go">CS:GO</option>
+                    <option value="dota2">Dota2</option>
+                    <option value="apex">Apex Legends</option>
+                </select>
+            </div>
+            <textarea name="comen" id="comen" placeholder="Addational information" class="comen"></textarea>
+            <button class="submit">
+                    Submit
+            </button>
+        </div>
+    </form>
+</body>
+</html>
